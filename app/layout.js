@@ -25,7 +25,7 @@ const localBusinessSchema = {
   description:
     "Residential pool cleaning and equipment repair service for Celina, Texas.",
   url: SITE.domain,
-  telephone: SITE.phoneTel, // TODO: TWILIO TRACKING NUMBER (updates automatically from lib/config.js)
+  telephone: SITE.phoneTel,
   areaServed: {
     "@type": "City",
     name: "Celina",
