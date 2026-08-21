@@ -85,10 +85,10 @@ export default function Home() {
             <div className="card">
               <Image
                 className="photo"
-                src="/images/pool-water-testing.jpg"
-                alt="Pool service technician kneeling at the pool edge testing water chemistry with a liquid test kit"
-                width={1067}
-                height={1600}
+                src="/images/green-algae-pool-before-cleaning.jpg"
+                alt="Neglected backyard swimming pool with cloudy green algae-filled water before a one-time cleanup"
+                width={1600}
+                height={1067}
               />
               <h3>
                 <Link href="/one-time-pool-cleaning/">One-Time Cleanup</Link>
