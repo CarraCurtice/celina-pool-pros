@@ -155,20 +155,6 @@ section { padding: 2.5rem 0; }
   margin-bottom: 0.5rem;
 }
 
-/* Photos */
-.photo {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius);
-}
-/* Homepage service cards: crop every photo to the same 3:2 frame so the row lines up */
-.card .photo {
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  margin-bottom: 0.25rem;
-}
-
 /* FAQ */
 .faq-section { max-width: 760px; }
 .faq-item {

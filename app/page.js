@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { SITE } from "../lib/config";
 import QuoteForm from "../components/QuoteForm";
 import Faq from "../components/Faq";
@@ -67,13 +66,6 @@ export default function Home() {
           </p>
           <div className="cards-grid">
             <div className="card">
-              <Image
-                className="photo"
-                src="/images/pool-tech-skimming.jpg"
-                alt="Pool technician skimming leaves and debris from a backyard swimming pool with a net"
-                width={1600}
-                height={1096}
-              />
               <h3>
                 <Link href="/weekly-pool-cleaning/">Weekly Pool Cleaning</Link>
               </h3>
@@ -83,13 +75,6 @@ export default function Home() {
               </p>
             </div>
             <div className="card">
-              <Image
-                className="photo"
-                src="/images/green-algae-pool-before-cleaning.jpg"
-                alt="Neglected backyard swimming pool with cloudy green algae-filled water before a one-time cleanup"
-                width={1600}
-                height={1067}
-              />
               <h3>
                 <Link href="/one-time-pool-cleaning/">One-Time Cleanup</Link>
               </h3>
@@ -99,13 +84,6 @@ export default function Home() {
               </p>
             </div>
             <div className="card">
-              <Image
-                className="photo"
-                src="/images/pool-pump-filter-service.jpg"
-                alt="Gloved pool technician opening the strainer basket on a pool pump at a home equipment pad"
-                width={1600}
-                height={1067}
-              />
               <h3>
                 <Link href="/pool-equipment-repair/">Equipment Repair</Link>
               </h3>
