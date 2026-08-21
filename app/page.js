@@ -1,12 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SITE } from "../lib/config";
 import QuoteForm from "../components/QuoteForm";
-import PhotoPlaceholder from "../components/PhotoPlaceholder";
 import Faq from "../components/Faq";
 import CtaBand from "../components/CtaBand";
 
 export const metadata = {
-  title: "Pool Cleaning in Celina, TX — Weekly Service, Cleanups & Repairs",
+  title: "Pool Cleaning in Celina, TX | Weekly Service, Cleanups & Repairs",
   description:
     "Local pool cleaning for Celina, TX. Weekly maintenance, one-time green-pool cleanups, and equipment repair for Light Farms, Mustang Lakes, Carter Ranch and more. Free quotes.",
   alternates: { canonical: "/" },
@@ -19,7 +19,7 @@ const faqItems = [
   },
   {
     q: "Do I need to be home for service?",
-    a: "No. Most Celina customers just leave the side gate unlocked on service day, or give us a gate code. We close and latch gates behind us every time — especially important for homes with dogs or kids.",
+    a: "No. Most Celina customers just leave the side gate unlocked on service day, or give us a gate code. We close and latch gates behind us every time. That matters most for homes with dogs or kids.",
   },
   {
     q: "What chemicals do you use, and are they included?",
@@ -27,7 +27,7 @@ const faqItems = [
   },
   {
     q: "Can you handle a pool that's turned green?",
-    a: "Yes — that's our one-time cleanup service. We'll assess it, give you a flat quote, and get it from green to swimmable. Many customers then move to weekly service so it never happens again, but there's no obligation.",
+    a: "Yes, that's our one-time cleanup service. We'll assess it, give you a flat quote, and get it from green to swimmable. Many customers then move to weekly service so it never happens again, but there's no obligation.",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function Home() {
             <h1>Pool Cleaning in Celina, TX</h1>
             <p className="hero-sub">
               We&rsquo;re a small, local crew that keeps Celina pools clean,
-              balanced, and swim-ready — from Light Farms to the neighborhoods
+              balanced, and swim-ready, from Light Farms to the neighborhoods
               off the downtown square. Weekly service, one-time cleanups, and
               equipment repair.
             </p>
@@ -67,32 +67,50 @@ export default function Home() {
           </p>
           <div className="cards-grid">
             <div className="card">
-              <PhotoPlaceholder note="Real photo: tech skimming a Celina backyard pool (get customer permission, shoot in Light Farms or Mustang Lakes)" />
+              <Image
+                className="photo"
+                src="/images/pool-tech-skimming.jpg"
+                alt="Pool technician skimming leaves and debris from a backyard swimming pool with a net"
+                width={1600}
+                height={1096}
+              />
               <h3>
                 <Link href="/weekly-pool-cleaning/">Weekly Pool Cleaning</Link>
               </h3>
               <p>
-                Skim, brush, vacuum, empty baskets, test and balance water —
+                Skim, brush, vacuum, empty baskets, test and balance water,
                 every week, same day, rain or shine.
               </p>
             </div>
             <div className="card">
-              <PhotoPlaceholder note="Real photo: before/after of a green-to-clean job (side-by-side of an actual local cleanup)" />
+              <Image
+                className="photo"
+                src="/images/pool-water-testing.jpg"
+                alt="Pool service technician kneeling at the pool edge testing water chemistry with a liquid test kit"
+                width={1067}
+                height={1600}
+              />
               <h3>
                 <Link href="/one-time-pool-cleaning/">One-Time Cleanup</Link>
               </h3>
               <p>
-                Green pool, storm mess, or pre-party refresh — a single deep
+                Green pool, storm mess, or pre-party refresh. A single deep
                 clean with a flat, up-front price.
               </p>
             </div>
             <div className="card">
-              <PhotoPlaceholder note="Real photo: tech working on pool pump/filter equipment pad at a local home" />
+              <Image
+                className="photo"
+                src="/images/pool-pump-filter-service.jpg"
+                alt="Gloved pool technician opening the strainer basket on a pool pump at a home equipment pad"
+                width={1600}
+                height={1067}
+              />
               <h3>
                 <Link href="/pool-equipment-repair/">Equipment Repair</Link>
               </h3>
               <p>
-                Pumps, filters, timers, and leaks at the equipment pad —
+                Pumps, filters, timers, and leaks at the equipment pad,
                 diagnosed honestly, fixed quickly.
               </p>
             </div>
@@ -140,8 +158,8 @@ export default function Home() {
               Pools here deal with a specific mix: blackland-prairie dust that
               clouds water after a dry spell, live oak and cedar elm drop in
               spring and fall, and hard municipal water that scales tile lines
-              faster than most owners expect. Swim season runs long — pools in
-              Celina get real use from April into October — so small problems
+              faster than most owners expect. Swim season runs long, with pools in
+              Celina getting real use from April into October, so small problems
               compound fast.
             </p>
             <p>
@@ -149,7 +167,7 @@ export default function Home() {
               <Link href="/service-areas/">Light Farms, Mustang Lakes,
               Lilyana, Carter Ranch, Sutton Fields, Cambridge Crossing</Link>{" "}
               and the established streets near the downtown square. Newer
-              builds and older pools have different needs — we treat them
+              builds and older pools have different needs, and we treat them
               differently.
             </p>
             <p>

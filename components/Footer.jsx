@@ -27,7 +27,7 @@ export default function Footer() {
         <div>
           <p className="footer-heading">Service Area</p>
           <p>
-            Celina, TX — including Light Farms, Mustang Lakes, Lilyana, Carter
+            Celina, TX, including Light Farms, Mustang Lakes, Lilyana, Carter
             Ranch, Sutton Fields, and the neighborhoods around the downtown
             square.
           </p>

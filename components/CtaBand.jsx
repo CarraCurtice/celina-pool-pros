@@ -3,7 +3,7 @@ import { SITE } from "../lib/config";
 
 export default function CtaBand({
   heading = "Ready for a cleaner pool?",
-  sub = "Call or send the quick form — we answer fast during business hours.",
+  sub = "Call or send the quick form. We answer fast during business hours.",
 }) {
   return (
     <section className="cta-band">

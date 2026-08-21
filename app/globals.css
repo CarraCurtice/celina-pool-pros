@@ -155,23 +155,19 @@ section { padding: 2.5rem 0; }
   margin-bottom: 0.5rem;
 }
 
-/* Photo placeholders — intentionally loud so they can't ship by accident */
-.photo-placeholder {
-  border: 2px dashed #b45309;
-  background: repeating-linear-gradient(45deg, #fff7ed, #fff7ed 12px, #ffedd5 12px, #ffedd5 24px);
+/* Photos */
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: var(--radius);
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  align-items: center;
-  text-align: center;
-  color: #92400e;
-  font-size: 0.85rem;
-  min-height: 140px;
-  justify-content: center;
 }
-.photo-placeholder-tall { min-height: 260px; }
+/* Homepage service cards: crop every photo to the same 3:2 frame so the row lines up */
+.card .photo {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  margin-bottom: 0.25rem;
+}
 
 /* FAQ */
 .faq-section { max-width: 760px; }

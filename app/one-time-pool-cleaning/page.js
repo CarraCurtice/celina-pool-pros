@@ -1,13 +1,12 @@
 import { SITE } from "../../lib/config";
 import QuoteForm from "../../components/QuoteForm";
-import PhotoPlaceholder from "../../components/PhotoPlaceholder";
 import Faq from "../../components/Faq";
 import CtaBand from "../../components/CtaBand";
 
 export const metadata = {
   title: "One-Time Pool Cleaning & Green Pool Cleanup in Celina, TX",
   description:
-    "One-time pool cleanup in Celina, TX — green-to-clean recoveries, storm debris cleanup, and pre-event deep cleans. Flat up-front pricing, no service contract required.",
+    "One-time pool cleanup in Celina, TX, including green-to-clean recoveries, storm debris cleanup, and pre-event deep cleans. Flat up-front pricing, no service contract required.",
   alternates: { canonical: "/one-time-pool-cleaning/" },
 };
 
@@ -22,7 +21,7 @@ const faqItems = [
   },
   {
     q: "Do I have to sign up for weekly service to get a one-time clean?",
-    a: "No. One-time means one-time. Plenty of Celina customers call us once a year before a graduation party or after a spring storm and that's the whole relationship. If you want weekly service afterward, great — but we'll never make it a condition.",
+    a: "No. One-time means one-time. Plenty of Celina customers call us once a year before a graduation party or after a spring storm and that's the whole relationship. If you want weekly service afterward, great, but we'll never make it a condition.",
   },
   {
     q: "What does a one-time cleanup cost?",
@@ -54,7 +53,7 @@ export default function OneTimeCleaning() {
             <h3>1. The pool turned green</h3>
             <p>
               It happens fast here. A hot week, a filter that quietly stopped
-              doing its job, a vacation — and the water goes from cloudy to
+              doing its job, a vacation, and the water goes from cloudy to
               swamp. We do the full recovery: heavy brushing, shock and
               algaecide, filter cleaning, and repeat visits until the water
               holds clear. If the pool has sat long enough that a drain-and-
@@ -72,14 +71,10 @@ export default function OneTimeCleaning() {
             <h3>3. Company&rsquo;s coming</h3>
             <p>
               Graduation weekend, a birthday, the neighborhood&rsquo;s turn to
-              host — a pre-event deep clean gets the waterline tile scrubbed,
+              host. A pre-event deep clean gets the waterline tile scrubbed,
               floor vacuumed, and water polished so the pool looks its best in
               the photos.
             </p>
-            <PhotoPlaceholder
-              tall
-              note="Real photo: side-by-side before/after of an actual green-to-clean recovery you performed locally. This is the single most persuasive photo on the site — prioritize getting a real one."
-            />
           </div>
           <QuoteForm title="Get a Flat-Price Cleanup Quote" />
         </div>

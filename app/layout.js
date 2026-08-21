@@ -7,11 +7,11 @@ import { SITE } from "../lib/config";
 export const metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: `${SITE.name} — Pool Cleaning in Celina, TX`,
+    default: `${SITE.name} | Pool Cleaning in Celina, TX`,
     template: `%s | ${SITE.name}`,
   },
   description:
-    "Weekly pool cleaning, one-time cleanups, and equipment repair for Celina, TX homes — Light Farms, Mustang Lakes, Carter Ranch, and every neighborhood in between.",
+    "Weekly pool cleaning, one-time cleanups, and equipment repair for Celina, TX homes, from Light Farms and Mustang Lakes to Carter Ranch and every neighborhood in between.",
   openGraph: {
     siteName: SITE.name,
     locale: "en_US",

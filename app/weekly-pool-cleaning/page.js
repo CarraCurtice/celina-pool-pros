@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { SITE } from "../../lib/config";
 import QuoteForm from "../../components/QuoteForm";
-import PhotoPlaceholder from "../../components/PhotoPlaceholder";
 import Faq from "../../components/Faq";
 import CtaBand from "../../components/CtaBand";
 
@@ -19,15 +18,15 @@ const faqItems = [
   },
   {
     q: "How much does weekly pool cleaning cost in Celina?",
-    a: "It depends on pool size, trees over the water, and equipment condition — a screened new-build pool in Sutton Fields is a different job than a pool under mature oaks near downtown. We quote each pool individually and the price is flat per month, chemicals discussed up front.",
+    a: "It depends on pool size, trees over the water, and equipment condition. A screened new-build pool in Sutton Fields is a different job than a pool under mature oaks near downtown. We quote each pool individually and the price is flat per month, chemicals discussed up front.",
   },
   {
     q: "Do you skip visits when it rains?",
-    a: "No — rain weeks are when your pool needs us most. Storm runoff and debris throw off water chemistry fast, so we service on your regular day and note anything the storm stirred up.",
+    a: "No. Rain weeks are when your pool needs us most. Storm runoff and debris throw off water chemistry fast, so we service on your regular day and note anything the storm stirred up.",
   },
   {
     q: "Can I pause service in winter?",
-    a: "Texas pools run year-round, but winter visits are lighter. Many customers switch to a reduced winter cadence from December through February. We'll set that up when the time comes — no contract changes needed.",
+    a: "Texas pools run year-round, but winter visits are lighter. Many customers switch to a reduced winter cadence from December through February. We'll set that up when the time comes, no contract changes needed.",
   },
 ];
 
@@ -73,15 +72,11 @@ export default function WeeklyPoolCleaning() {
             <p>
               A weekly rhythm catches all of that while it&rsquo;s still small.
               It also means an experienced set of eyes on your equipment pad 52
-              times a year — most of the{" "}
+              times a year. Most of the{" "}
               <Link href="/pool-equipment-repair/">pump and filter repairs</Link>{" "}
               we do started as something a weekly customer never had to worry
               about, because we caught it during a routine visit.
             </p>
-            <PhotoPlaceholder
-              tall
-              note="Real photo: your tech mid-service at a Celina pool — brushing tile line or testing water. Candid, not staged stock."
-            />
           </div>
           <QuoteForm title="Get a Weekly Service Quote" />
         </div>
